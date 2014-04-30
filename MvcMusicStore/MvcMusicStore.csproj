@@ -192,6 +192,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Samples\AlbumList\Album.cs" />
     <Compile Include="Samples\AlbumList\AlbumsController.cs" />
+    <Compile Include="Samples\ShoppingCartViewModel\ProductModel.cs" />
+    <Compile Include="Samples\ShoppingCartViewModel\ShoppingCartController.cs" />
+    <Compile Include="Samples\ShoppingCartViewModel\ShoppingCartViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -306,6 +309,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Albums\ListWeaklyTyped.cshtml" />
     <Content Include="Views\Albums\ListStronglyTyped.cshtml" />
+    <Content Include="Views\ShoppingCart\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
